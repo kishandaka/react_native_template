@@ -11,8 +11,8 @@ import {ThemeProvider} from './theme/ThemeProvider/ThemeProvider'
 const App = () => {
   return (
     <NavigationContainer>
-      <ThemeProvider>
-        <AppStateContextProvider>
+      <ThemeProvider >
+        <AppStateContextProvider >
           <RootSiblingParent>
             <AppNavigation />
             <AppLoader />
