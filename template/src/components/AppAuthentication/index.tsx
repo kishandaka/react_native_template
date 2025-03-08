@@ -4,6 +4,7 @@ import {useColor} from '@/hooks'
 import {myStyles} from './AppAuthentication.style'
 import AppLoader from '../AppLoader/AppLoader'
 
+// declare your authentication logic here
 const AppAuthentication = ({children}: {children: React.ReactNode}) => {
   const colors = useColor()
   const styles = myStyles(colors)
